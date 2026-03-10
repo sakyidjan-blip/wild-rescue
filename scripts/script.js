@@ -1,38 +1,26 @@
 /*
 Name: Your Name
-File Name: script.js
 Date: 2026
+File: script.js
+Description: JavaScript for Wild Rescues Bootstrap site
 */
 
-/* Hamburger menu function */
-function menu() {
-  var x = document.getElementById("nav-links");
+document.addEventListener("DOMContentLoaded", function(){
 
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+console.log("Wild Rescues website loaded successfully.");
 
-/* FAQ Answer Functions */
+/* Example interaction */
 
-function ans1() {
-  document.getElementById("answer").innerHTML =
-    "Wild Rescues helps injured and orphaned wildlife recover and return safely to the wild.";
-}
+const navLinks = document.querySelectorAll(".nav-link");
 
-function ans2() {
-  document.getElementById("answer").innerHTML =
-    "You can volunteer, donate, or partner with our organization to support wildlife care.";
-}
+navLinks.forEach(link => {
 
-function ans3() {
-  document.getElementById("answer").innerHTML =
-    "If you find injured wildlife, contact us immediately at (555) 123-4567.";
-}
+link.addEventListener("click", function(){
 
-function ans4() {
-  document.getElementById("answer").innerHTML =
-    "All animals are rehabilitated by trained volunteers and wildlife professionals.";
-}
+console.log("Navigation link clicked:", this.textContent);
+
+});
+
+});
+
+});
