@@ -1,6 +1,6 @@
 /*
-Name: Your Name
-Date: 2026
+Name: Isaac Sakyi-Djan
+Date: 03/10/2026
 File: script.js
 Description: JavaScript for Wild Rescues Bootstrap site
 */
@@ -24,3 +24,4 @@ console.log("Navigation link clicked:", this.textContent);
 });
 
 });
+
