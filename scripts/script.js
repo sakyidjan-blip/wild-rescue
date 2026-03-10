@@ -5,23 +5,22 @@ File: script.js
 Description: JavaScript for Wild Rescues Bootstrap site
 */
 
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function () {
 
-console.log("Wild Rescues website loaded successfully.");
+    console.log("Wild Rescues website loaded successfully.");
 
-/* Example interaction */
+    /* Navigation click interaction */
 
-const navLinks = document.querySelectorAll(".nav-link");
+    const navLinks = document.querySelectorAll(".nav-link");
 
-navLinks.forEach(link => {
+    navLinks.forEach(function(link){
 
-link.addEventListener("click", function(){
+        link.addEventListener("click", function(){
 
-console.log("Navigation link clicked:", this.textContent);
+            console.log("Navigation link clicked:", this.textContent);
+
+        });
+
+    });
 
 });
-
-});
-
-});
-
