@@ -5,20 +5,7 @@ File: script.js
 Description: JavaScript for Wild Rescues Bootstrap site
 */
 
-document.addEventListener("DOMContentLoaded", function(){
-
-console.log("Wild Rescues site loaded successfully.");
-
-const navLinks = document.querySelectorAll(".nav-link");
-
-navLinks.forEach(function(link){
-
-link.addEventListener("click", function(){
-
-console.log("Navigation clicked:", this.textContent);
-
-});
-
-});
-
+// jQuery document ready event
+$(document).ready(function () {
+  console.log("Wild Rescues Bootstrap page loaded.");
 });
