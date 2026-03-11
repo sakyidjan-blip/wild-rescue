@@ -6,44 +6,71 @@ Description: Styles for Wild Rescues Bootstrap site
 */
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color:#f6eee4;
-  color:#2a1f14;
+font-family: Arial, Helvetica, sans-serif;
+background-color:#f6eee4;
+color:#2a1f14;
 }
+
+
+/* NAVBAR */
+
+.navbar{
+background-color:#2a1f14;
+}
+
+
+/* HERO IMAGE */
 
 .hero{
-  background:url("images/baby-hawk.jpg") center center / cover no-repeat;
-  height:500px;
-  position:relative;
+
+background:url("images/baby-hawk.jpg") center center / cover no-repeat;
+
+height:500px;
+
+position:relative;
+
 }
 
-.welcome{
-  position:absolute;
-  top:40%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  text-align:center;
-  width:100%;
+
+/* HERO BUTTON POSITION */
+
+.hero-overlay{
+
+position:absolute;
+
+top:50%;
+
+left:50%;
+
+transform:translate(-50%, -50%);
+
 }
 
-.display-1{
-  font-size:4em;
-}
+
+/* BUTTON COLOR */
 
 .bg-brown{
-  background-color:#2a1f14;
+
+background-color:#2a1f14;
+
 }
+
+
+/* FOOTER */
 
 footer{
-  background-color:#2a1f14;
+
+background:#2a1f14;
+
 }
 
-@media (max-width:768px){
-  .hero{
-    height:350px;
-  }
 
-  .display-1{
-    font-size:2.5em;
-  }
+/* MOBILE RESPONSIVE */
+
+@media (max-width:768px){
+
+.hero{
+height:350px;
+}
+
 }
