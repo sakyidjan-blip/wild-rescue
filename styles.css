@@ -1,91 +1,101 @@
-/* 
+/*
 Name: Isaac Sakyi-Djan
 Date: 03/10/2026
 File: styles.css
-Description: Custom styles for Wild Rescues Bootstrap site
+Description: Styles for Wild Rescues Bootstrap site
 */
 
-/* GENERAL PAGE STYLING */
-
 body{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color:#f6eee4;
-  color:#2a1f14;
+font-family: Arial, Helvetica, sans-serif;
+background-color:#f6eee4;
+color:#2a1f14;
 }
 
-/* NAVIGATION */
+
+/* NAVBAR */
 
 .navbar{
-  background-color:#2a1f14;
+background-color:#2a1f14;
 }
 
-.navbar-brand{
-  font-weight:bold;
-  font-size:1.5rem;
-}
 
-/* HERO / HEADER */
+/* HERO */
 
 .hero{
-  background:url("../images/hero.jpg") center center / cover no-repeat;
-  height:500px;
-  position:relative;
+
+background:url("images/baby-hawk.jpg") center center / cover no-repeat;
+
+height:500px;
+
+position:relative;
+
 }
+
 
 /* HERO TEXT */
 
 .welcome{
-  position:absolute;
-  top:40%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  text-align:center;
-  color:white;
+
+position:absolute;
+
+top:40%;
+
+left:50%;
+
+transform:translate(-50%, -50%);
+
+text-align:center;
+
+color:white;
+
 }
 
-/* BIG TITLE */
+
+/* TITLE */
 
 .display-1{
-  font-size:4rem;
-  font-weight:bold;
+
+font-size:4rem;
+
+font-weight:bold;
+
 }
 
-/* BUTTON */
+
+/* BROWN BUTTON */
 
 .bg-brown{
-  background-color:#2a1f14;
+
+background-color:#2a1f14;
+
 }
 
-/* MAIN CONTENT */
-
-main{
-  padding:40px;
-}
-
-/* SECTION HEADINGS */
-
-h3{
-  margin-top:20px;
-  font-weight:bold;
-}
 
 /* FOOTER */
 
 footer{
-  background:#2a1f14;
-  color:white;
+
+background:#2a1f14;
+
+color:white;
+
 }
 
-/* RESPONSIVE DESIGN */
+
+/* MOBILE */
 
 @media (max-width:768px){
 
-.display-1{
-  font-size:2.5rem;
+.hero{
+
+height:350px;
+
 }
 
-.hero{
-  height:350px;
+.display-1{
+
+font-size:2.5rem;
+
 }
 
 }
